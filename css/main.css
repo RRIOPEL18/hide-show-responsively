@@ -28,8 +28,15 @@ img {
   display: inline-block;
 }
 
-@media only screen and (min-width: 25em) {
+img:nth-child(odd) {
+  display: inline;
+}
 
+img:nth-child(even) {
+  display: inline-block;
+}
+
+@media only screen and (min-width: 25em) {
 
 }
 
